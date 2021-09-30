@@ -5,7 +5,7 @@
     "commit": "npx git-cz"
   },
   "workspaces": [
-    "packages/*"
+    "packages/**/*"
   ],
   "devDependencies": {
     "lerna": "^4.0.0"
