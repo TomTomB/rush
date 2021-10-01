@@ -32,6 +32,7 @@ function createWebpackConfig({ production }) {
     output: {
       path: path.join(__dirname, 'dist'),
       filename: '[name]_[contenthash].js',
+      clean: true,
     },
     performance: {
       // This specifies the bundle size limit that will trigger Webpack's warning saying:
