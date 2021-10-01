@@ -1,0 +1,25 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/platform': file:./projects/platform.tgz
+  typescript: 4.4.3
+
+dependencies:
+  '@rush-temp/platform': file:projects/platform.tgz
+  typescript: 4.4.3
+
+packages:
+
+  /typescript/4.4.3:
+    resolution: {integrity: sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  file:projects/platform.tgz:
+    resolution: {integrity: sha512-UxdSQGTwXWnlnfP5WwGFLVsDX5TMUXcnzHjRerYNSf/Z9KdLoF3vT/z3Fr3U5CUNznjeVjLuxvdwsMEwYC5LEg==, tarball: file:projects/platform.tgz}
+    name: '@rush-temp/platform'
+    version: 0.0.0
+    dependencies:
+      typescript: 4.4.3
+    dev: false
